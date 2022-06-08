@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "272HW3", "272HW3\272HW3.csproj", "{ED6969F0-7CCD-49C3-8B1F-7F40DECD4153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{73CEC212-8A47-4767-8074-94629BF004F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{92E210DA-70A9-459A-90E3-283A82A0DBB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{6E91E974-1624-43C6-9C36-0B0E0E8A340A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Videos", "Videos", "{6FACBF44-73A8-47B6-BDCA-658468A9B163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED6969F0-7CCD-49C3-8B1F-7F40DECD4153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6969F0-7CCD-49C3-8B1F-7F40DECD4153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6969F0-7CCD-49C3-8B1F-7F40DECD4153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6969F0-7CCD-49C3-8B1F-7F40DECD4153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92E210DA-70A9-459A-90E3-283A82A0DBB4} = {73CEC212-8A47-4767-8074-94629BF004F8}
+		{6E91E974-1624-43C6-9C36-0B0E0E8A340A} = {73CEC212-8A47-4767-8074-94629BF004F8}
+		{6FACBF44-73A8-47B6-BDCA-658468A9B163} = {73CEC212-8A47-4767-8074-94629BF004F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5D10FC3-C5C8-4DD7-863B-BD94B1A2C46A}
+	EndGlobalSection
+EndGlobal

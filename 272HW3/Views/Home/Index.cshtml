@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Home Page</h1>
+<h2>Upload Media System</h2>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" style="background-color:lavender;">
+
+            <h4>Description of the system</h4>
+            <p>
+                The purpose of this system is to be able to get the input from the user, their radio button option and chosen file.<br />
+                Saving the file in the correct folder. Being able to download or delete the files uploaded.
+            </p>
+        </div>
+
+        <div class="col-sm-6" style="background-color:lavender;">
+            <h4>Option selection</h4>
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                @Html.RadioButton("Document", true)Document<br />
+                                @Html.RadioButton("Image", false)Image<br />
+                                @Html.RadioButton("Video", false)Video<br />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br  />
+                <br  />
+
+                <div>
+                    <input type="file" name="files" /> <br />
+                    <input type="submit" value="Submit" />
+                </div>
+            }
+        </div>
+
+
+
